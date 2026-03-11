@@ -5,217 +5,119 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>La Nueva Oportunidad - Lotes en San Rafael Antioquia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
-    }
+<meta charset="UTF-8">
+<title>La Nueva Oportunidad</title>
 
-    header {
-      background-color: #065f46;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+<style>
 
-    nav {
-      background-color: #047857;
-      padding: 10px;
-      text-align: center;
-    }
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
 
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+header{
+background:#2c7a4b;
+color:white;
+text-align:center;
+padding:25px;
+}
 
-    .hero {
-      background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef');
-      background-size: cover;
-      background-position: center;
-      color: white;
-      text-align: center;
-      padding: 100px 20px;
-    }
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
 
-    .hero h1 {
-      font-size: 38px;
-    }
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
 
-    .container {
-      padding: 40px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
+img{
+width:100%;
+border-radius:10px;
+margin-bottom:15px;
+}
 
-    .lotes {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
+ul{
+line-height:1.8;
+}
 
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      overflow: hidden;
-    }
+.boton{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:6px;
+margin-top:15px;
+font-weight:bold;
+}
 
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#222;
+color:white;
+}
 
-    .card-content {
-      padding: 15px;
-    }
-
-    .precio {
-      color: #047857;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .boton {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
-      background-color: #047857;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    .seccion {
-      margin-top: 60px;
-    }
-
-    footer {
-      background-color: #065f46;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 15px;
-      border-radius: 50%;
-      text-decoration: none;
-      font-size: 20px;
-    }
-  </style>
+</style>
 </head>
+
 <body>
 
 <header>
-  <h1>La Nueva Oportunidad</h1>
-  <p>Compra y venta de lotes en San Rafael, Antioquia</p>
+<h1>La Nueva Oportunidad</h1>
+<p>Compra y venta de propiedades</p>
 </header>
 
-<nav>
-  <a href="#">Inicio</a>
-  <a href="#">Lotes disponibles</a>
-  <a href="#vender">Vender mi lote</a>
-  <a href="#contacto">Contacto</a>
-</nav>
+<div class="container">
 
-<section class="hero">
-  <h1>Invierte en San Rafael, Antioquia</h1>
-  <p>Terrenos ideales para descanso, vivienda o inversión</p>
-</section>
-
-<section class="container">
-  <h2>Lotes Disponibles en San Rafael</h2>
-  <div class="lotes">
-<section style="border:1px solid #ddd; padding:20px; margin:20px; border-radius:10px; font-family:Arial; max-width:900px; margin:auto;">
+<div class="card">
 
 <h2>Hermosa propiedad en venta – San Rafael, Antioquia</h2>
 
-<img src="imagenes/finca-macondo.jpg" alt="Propiedad en San Rafael Antioquia" style="width:100%; border-radius:10px;">
+<img src="imagenes/finca-macondo.jpg">
 
 <p>
 Se ofrece en venta una encantadora propiedad ubicada en el municipio de San Rafael, Antioquia,
-en la vereda <strong>La Rápida, sector Macondo</strong>. Un lugar privilegiado por su tranquilidad
+en la vereda <b>La Rápida, sector Macondo</b>. Un lugar privilegiado por su tranquilidad
 y su hermoso entorno natural, ideal para descanso, turismo o inversión campestre.
 </p>
 
 <p>
-La propiedad cuenta con aproximadamente <strong>2.000 m² de terreno</strong> y dispone de
-una <strong>casa de dos pisos</strong>, perfecta para disfrutar del paisaje y la naturaleza
-que rodea el lugar. Se encuentra ubicada al lado de la carretera y junto a la
-<strong>quebrada La Rápida</strong>, lo que brinda un ambiente fresco y natural durante todo el año.
+La propiedad cuenta con aproximadamente <b>2.000 m² de terreno</b> y dispone de una
+<b>casa de dos pisos</b>. Se encuentra ubicada al lado de la carretera y junto a la
+<b>quebrada La Rápida</b>, lo que brinda un ambiente fresco y natural durante todo el año.
 </p>
 
 <p>
 Entre sus mayores atractivos destacan sus hermosos árboles y abundante vegetación,
-además de contar con <strong>charco y acceso a la quebrada</strong>, creando un espacio ideal
+además de contar con <b>charco y acceso a la quebrada</b>, creando un espacio ideal
 para disfrutar del agua y la tranquilidad del campo.
 </p>
 
 <ul>
 <li>📍 Ubicación: San Rafael, Antioquia – Vereda La Rápida, sector Macondo</li>
 <li>📐 Área: Aproximadamente 2.000 m²</li>
-<li>🏡 Construcción: Casa de dos pisos</li>
+<li>🏡 Casa de dos pisos</li>
 <li>📄 Documento: Escritura Proindiviso</li>
 <li>💰 Valor: $240.000.000 COP</li>
 </ul>
 
-<p><strong>
-Una excelente oportunidad para quienes desean invertir en una propiedad rodeada de naturaleza
-en uno de los lugares más hermosos del oriente antioqueño.
-</strong></p>
+<a class="boton" href="#">Contactar por WhatsApp</a>
 
-</section>
-   
+</div>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Lote Urbano">
-      <div class="card-content">
-        <h3>Lote Urbano</h3>
-        <p>Ubicado en zona central con fácil acceso.</p>
-        <p class="precio">$140.000.000</p>
-        <a href="https://wa.me/573000000000" class="boton">Consultar</a>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="seccion" id="vender">
-    <h2>¿Quieres vender tu lote?</h2>
-    <p>En La Nueva Oportunidad te ayudamos a vender tu propiedad de forma segura y rápida en San Rafael, Antioquia.</p>
-    <a href="https://wa.me/573000000000" class="boton">Publicar mi lote</a>
-  </div>
-
-  <div class="seccion" id="contacto">
-    <h2>Contacto</h2>
-    <p>📍 San Rafael, Antioquia</p>
-    <p>📞 3148345749</p>
-    <p>📧 info@lanuevaoportunidad.com</p>
-  </div>
-
-</section>
+</div>
 
 <footer>
-  <p>© 2026 La Nueva Oportunidad | San Rafael Antioquia</p>
+<p>© 2026 La Nueva Oportunidad</p>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/573148345749">💬</a>
-
 </body>
-
 </html>
-
-
